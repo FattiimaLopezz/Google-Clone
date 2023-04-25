@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav{
+    display: flex; /*Me va a mover a donde yo quiera pero en bloques*/
+    justify-content: flex-end; /*Justificar*/
+}
+
+/*Para quitar los puntos de la lista*/
+header nav .nav-right-section{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: auto;
+}
+a{
+    text-decoration: none; /*Para quitarle el subrayado*/
+    cursor:pointer; /*Cambia el cursor a un pointer*/
+}
+
+nav .nav-right-section a{ /*Para separar Gmail Imagen*/
+    margin-right: 25px;
+    color: #000000DE;
+}
+
+nav .nav-right-section .menu{
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 20px;
+    height: 20px;
+    background-size: contain; /*Settea el tamaño de la imagen del ícono a lo más grande posible siempre y cuando este dentro del nav-right-section*/
+}
+
+nav .nav-right-section img{
+    border-radius: 60px;
+    margin-left: 20px; /*Le agrega pixeles a la izquierda de la imagen*/
+    width: 35px;
+    height: 35px;
+}
+
+main{
+    margin-top: 150px;
+    text-align: center; /*Centró el contenido que está en main horizontalmente*/
+
+}
+
+main .main-logo{
+    width: 530px;
+    margin: 0 auto; /*Centra el elemento horizontalmente en el contenedor*/
+    margin-bottom: 35px; /*Espacio entre el logo y la barra de buscador*/
+}
+
+main .main-logo img{
+    height: 92px;
+    width: 272px;
+}
+
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container{
+    width: 525px;
+    border: 1px solid #dfe1e5;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input{
+    border: none;
+    width: 425px;
+    height: 40px;
+    outline: none; /*Para que no aparezca la cajita en la barra de buscador*/
+}
+
+/*sombra a la barra de buscador*/
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0px #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input .search-icon{
+    background-image: url("https://seekicon.com/free-icon-download/search_20.svg");
+    /*Evitar repetición (precaución)*/
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: contain; /*Tamaño maximo contenido en la caja*/
+    width: 14px;
+    height: 14px;
+    padding-left: 0%; /*margen interior de la izquierda*/
+    padding-right: 8%;
+}
+
+main .main-input .micro-icon{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png");
+    /*Evitar repetición (precaución)*/
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: contain; /*Tamaño maximo contenido en la caja*/
+    width: 18px;
+    height: 18px;
+    padding-left: 1%; /*margen interior de la izquierda*/
+}
+
+main .main-input .cam-icon{
+    background-image: url("https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg");
+    /*Evitar repetición (precaución)*/
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: contain; /*Tamaño maximo contenido en la caja*/
+    width: 18px;
+    height: 18px;
+    padding-right: 8%; /*margen interior de la izquierda*/
+}
+
+main .main-buttons div{
+    display: inline-block; /*En una sola linea*/
+}
+
+main .main-buttons button{
+    border: none;
+    height: 36px;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    color: #3c4043; /*De la letra*/
+    border-radius: 4px;
+    padding: 0 15px;
+    border: 1px solid #f8f9fa;
+    margin-right: 10px;
+}
+
+main .main-buttons button:hover{
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    border: 1px solid #dadce0;
+    color: #20212447;
+    cursor: pointer; /*Que la manita cambie*/
+}
+
+/************/
+/*FOOTER*/
+
+footer{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    font-size: 13px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ; /*Separar el contenido en dos columnas*/
+    align-items: center;
+    border-top: 1px solid #20212447; /*La linea que divide*/
+    bottom: 0;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none; /*Eliminar viñetas*/
+    display: flex; /*Se adapten al tamaño*/
+    padding-left: 0px; /*Que esten en la mera orilla*/
+}
+
+footer ul li a{
+    color: #70757a;
+    margin: 10px;
+}
+
+footer .footer-left{
+    justify-self: left;
+}
+
+footer .footer-right{
+    justify-self: right;
+}
