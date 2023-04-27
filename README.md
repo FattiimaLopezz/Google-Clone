@@ -23,4 +23,4 @@ El proyecto está enfocado en la construcción de la interfaz de Google, tomando
 Aprender a utilizar las etiquetas de HTML5 y las propiedades de CSS3; así como identificar componentes base de un sitio web, para analizarla y replicarlas.
 
 ## LINK AL DEMO
-Visualiza mi proyecto terminado aqui [Clonación de Google]
+Visualiza mi proyecto terminado aqui [Clonación de Google](https://fattiimalopezz.github.io/Google-Clone/)
