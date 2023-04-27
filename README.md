@@ -2,10 +2,10 @@
 ###### Creado con HTML y CSS en el bootcamp de Techno-Lochicas
 
 ## ÍNDICE
-* [iNTRO](# INTRO)
-* [¿QUÉ CONSTRUÍ?](# ¿QUÉ CONSTRUÍ?)
-* [OBJETIVOS DEL PROYECTO](# OBJETIVOS DEL PROYECTO)
-* [LINK AL DEMO](# LINK AL DEMO)
+* [iNTRO](https://github.com/FattiimaLopezz/Google-Clone/blob/main/README.md#intro)
+* [¿QUÉ CONSTRUÍ?](https://github.com/FattiimaLopezz/Google-Clone/blob/main/README.md#qu%C3%A9-constru%C3%AD)
+* [OBJETIVOS DEL PROYECTO](https://github.com/FattiimaLopezz/Google-Clone/blob/main/README.md#objetivos-del-proyecto)
+* [LINK AL DEMO](https://github.com/FattiimaLopezz/Google-Clone/blob/main/README.md#link-al-demo)
 
 ***
 
